@@ -1,0 +1,13 @@
+# Normalise line endings across platforms
+* text=auto eol=lf
+
+# Explicit text files
+*.md     text eol=lf
+*.py     text eol=lf
+*.json   text eol=lf
+*.yml    text eol=lf
+*.yaml   text eol=lf
+LICENSE  text eol=lf
+
+# Treat .skill (zip) as binary
+*.skill  binary
